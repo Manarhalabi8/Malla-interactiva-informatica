@@ -1,4 +1,5 @@
 // mini1.js - Versión dinámica para varias carreras
+console.log("✅ mini1.js dinámico cargado");
 document.addEventListener("DOMContentLoaded", async () => {
     const params = new URLSearchParams(window.location.search);
     const carrera = params.get("m");
