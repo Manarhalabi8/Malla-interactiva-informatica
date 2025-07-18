@@ -1,0 +1,69 @@
+{
+  "s1": [
+    ["Lenguaje y Comunicación", "II51002020101", 4, 0, "HUM", [], "A"],
+    ["Cálculo I", "II51002010101", 4, 0, "MAT", [], "A"],
+    ["Desarrollo Personal y Profesional", "II51002030101", 2, 0, "HUM", [], "A"],
+    ["Entrenamiento Físico General", "II51002030102", 2, 0, "HUM", [], "A"],
+    ["Lógica", "II51002010102", 4, 0, "MAT", [], "A"]
+  ],
+  "s2": [
+    ["Cálculo II", "II51002010203", 4, 0, "MAT", ["II51002010101"], "A"],
+    ["Introducción a la Informática", "II51002040201", 4, 0, "PROG", ["II51002010102"], "A"],
+    ["Espacio Geográfico e Identidad Nacional", "II51002030203", 2, 0, "HUM", [], "A"],
+    ["Estadística Descriptiva", "II51002010204", 3, 0, "EST", ["II51002010101"], "A"],
+    ["Inglés Instrumental", "II51002020202", 2, 0, "HUM", [], "A"],
+    ["Ecología y Educación Ambiental", "II51002030204", 3, 0, "HUM", [], "A"]
+  ],
+  "s3": [
+    ["Cálculo III", "II51002010305", 4, 0, "MAT", ["II51002010203"], "A"],
+    ["Física", "II51002010306", 4, 0, "FIS", ["II51002010101"], "A"],
+    ["Algoritmos y Programación I", "II51002050301", 4, 0, "PROG", ["II51002040201"], "A"],
+    ["Álgebra", "II51002010307", 4, 0, "MAT", ["II51002010101"], "A"],
+    ["Inferencia y Probabilidades", "II51002010308", 3, 0, "EST", ["II51002010204"], "A"]
+  ],
+  "s4": [
+    ["Cálculo IV", "II51002010409", 4, 0, "MAT", ["II51002010305"], "A"],
+    ["Estructuras Discretas", "II51002010410", 4, 0, "MAT", ["II51002010307"], "A"],
+    ["Algoritmos y Programación II", "II51002050402", 4, 0, "PROG", ["II51002050301"], "A"],
+    ["Electiva I (Métodos y Técnicas de Estudio)", "II51002000403", 2, 0, "HUM", [], "A"],
+    ["Electrónica", "II5100206401", 4, 0, "FIS", ["II51002010306"], "A"]
+  ],
+  "s5": [
+    ["Bases de Datos I", "II51002050504", 3, 0, "DB", ["II51002050301"], "A"],
+    ["Organización y Sistemas", "II51002080501", 4, 0, "ADM", [], "A"],
+    ["Algoritmos y Programación III", "II51002050503", 4, 0, "PROG", ["II51002050402","II51002010410"], "A"],
+    ["Arquitectura del Computador", "II51002060502", 3, 0, "RED", ["II5100206401"], "A"],
+    ["Metodología de la Investigación", "II51002090501", 3, 0, "HUM", [], "A"]
+  ],
+  "s6": [
+    ["Bases de Datos II", "II51002050605", 3, 0, "DB", ["II51002050504"], "A"],
+    ["Investigación de Operaciones", "II51002080602", 4, 0, "ADM", ["II51002080501"], "A"],
+    ["Sistemas Operativos", "II51002060603", 4, 0, "RED", ["II51002060502"], "A"],
+    ["Métodos Numéricos", "II51002010611", 3, 0, "MAT", ["II51002010410"], "A"],
+    ["Principios de Ingeniería del Software", "II51002070601", 5, 0, "SOFT", ["II51002050504","II51002050402"], "A"]
+  ],
+  "s7": [
+    ["Arquitecturas Software", "II51002070702", 3, 0, "SOFT", ["II51002070601"], "A"],
+    ["Metodología de Desarrollo de Software", "II51002070703", 4, 0, "SOFT", ["II51002070601","II51002050503"], "A"],
+    ["Electiva II (Administración)", "II51002000702", 2, 0, "HUM", [], "A"],
+    ["Redes y Comunicaciones I", "II51002060704", 4, 0, "RED", ["II51002060603"], "A"],
+    ["Desarrollo de Aplicaciones I", "II51002070704", 3, 0, "PROG", ["II51002070601","II51002050503"], "A"],
+    ["Investigación Social", "II51002090702", 4, 0, "HUM", ["II51002090501"], "A"]
+  ],
+  "s8": [
+    ["Gerencia y Mercadeo", "II51002080803", 3, 0, "ADM", ["II51002080602"], "A"],
+    ["Redes y Comunicaciones II", "II51002060805", 4, 0, "RED", ["II51002060704"], "A"],
+    ["Electiva III (Edumática)", "II51002000801", 2, 0, "HUM", [], "A"],
+    ["Desarrollo de Aplicaciones II", "II51002070805", 3, 0, "PROG", ["II51002070704","II51002070703"], "A"],
+    ["Proyecto de Grado", "II51002090803", 4, 0, "PROY", ["II51002090501","II51002070704","II51002070703"], "A"],
+    ["Seminario Ética Profesional", "II51002040802", 3, 0, "HUM", [], "A"]
+  ],
+  "s9": [
+    ["Planificación de Proyectos", "II51002080904", 3, 0, "ADM", ["II51002080803"], "A"],
+    ["Auditoría de Sistemas Informáticos", "II51002040903", 4, 0, "SOFT", ["II51002070702","II51002070704"], "A"],
+    ["Trabajo de Grado", "II51002090904", 8, 0, "PROY", [], "A"]
+  ],
+  "s10": [
+    ["Pasantía Profesional", "II51002091005", 10, 0, "PROY", [], "A"]
+  ]
+}

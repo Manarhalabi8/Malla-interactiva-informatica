@@ -1,0 +1,12 @@
+{
+  "MAT": ["#BF355E", "Matemáticas"],
+  "EST": ["#FFA7CF", "Estadística y Probabilidad"],
+  "FIS": ["#A2C8FF", "Física y Electrónica"],
+  "PROG": ["#7BA1A8", "Programación"],
+  "DB": ["#A8728A", "Bases de Datos"],
+  "SOFT": ["#F5F2D7", "Ingeniería de Software"],
+  "RED": ["#6969E8", "Redes y Sistemas"],
+  "HUM": ["#C2F2CE", "Humanísticas y Electivas"],
+  "ADM": ["#D4B3FF", "Administración y Gerencia"],
+  "PROY": ["#DD98E8", "Proyecto y Pasantía"]
+}
